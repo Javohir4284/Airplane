@@ -1,0 +1,162 @@
+
+@media only screen and (max-width:1200px){
+    .navbar-nav .nav-link{
+        font-size: 12px;
+    }
+
+    .navbar-nav{
+        margin-right: 0 !important;
+    }
+
+    .main-container .row{
+        padding: 150px 0;
+    }
+
+    .main-window{
+        display: none;
+    }
+
+    .flights-type{
+        display: block !important;
+    }
+
+    .flights-type .flights-from,
+    .flights-type .flights-to{
+        width: 50%;
+    }
+
+    .flights-type .flights-return{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* .btn-flights{
+        animation: none;
+        left: 50%;
+        transform: translateX(-50%);
+    } */
+}
+
+/* Max-width:992px */
+@media only screen and (max-width:992px){
+    .navbar-nav .nav-item{
+        margin: 10px 0;
+    }
+
+    .navbar .nav-link{
+        font-size: 18px;
+    }
+
+    .nav-registr{
+        display: block !important;
+    }
+
+    .btn-nav{
+        margin: 10px 0;
+        width: 120px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .nav-registr .nav-link{
+        padding-left: 0;
+    }
+
+    .main-container .row{
+        padding: 120px 0;
+    }
+
+    .private-vector2,
+    .private-vector1{
+        display: none;
+    }
+
+    .private-bottom,
+    .private-top{
+        margin-top: 50px;
+    }
+
+    .plane{
+        display: none;
+    }
+
+    .comfort-info .col-lg-4{
+        display: flex;
+    }
+
+    .comfort-info .col-lg-4 div{
+        margin: 10px;
+    }
+
+    .charter-info .row .col-lg-3{
+        width: 47%;
+        margin-top: 20px;
+    }
+}
+
+/* Max-width:768px */
+@media only screen and (max-width:768px){
+    .main-title{
+        font-size: 36px;
+    }
+
+    .private-bottom .row{
+        flex-direction: column-reverse;
+    }
+
+    .private-info img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .comfort-info .col-lg-4{
+        display: block;
+    }
+}
+
+/* Max-width:576px */
+@media only screen and (max-width:576px){
+    .flights-select select{
+        margin-right: 0;
+    }
+
+    .flights-type > div{
+        display: block !important;
+    }
+
+    .flights-type .flights-from,
+    .flights-type .flights-to{
+        width: 100%;
+    }
+
+    .flights-type .flights-icon{
+        margin: 10px auto;
+    }
+
+    .flights-icon i{
+        transform: rotate(90deg);
+        font-size: 10px;
+    }
+
+    .flights-return > div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-flights{
+        width: 30%;
+    }
+
+    @keyframes btn-flights{
+        80%{ left: 70%;}
+    }
+
+    .primary-title{
+        font-size: 24px;
+    }
+
+    .charter-info .row .col-lg-3{
+        width: 100%;
+    }
+}
